@@ -42,15 +42,15 @@
  */
 global $language_content; 
 if($language_content->language == "es"){
-	$hotels = "/atlantida/es/con-quien/hoteles";
-	$rest = "/atlantida/es/con-quien/restaurantes";
-	$tour = "/atlantida/es/con-quien/tour-operadores";
-	$tran = "/atlantida/es/con-quien/transportes";
+	$hotels = "/occidente/es/con-quien/hoteles";
+	$rest = "/occidente/es/con-quien/restaurantes";
+	$tour = "/occidente/es/con-quien/tour-operadores";
+	$tran = "/occidente/es/con-quien/transportes";
 } else {
-	$hotels = "/atlantida/en/with-whom/hotels";
-	$rest = "/atlantida/en/with-whom/restarants";
-	$tour = "/atlantida/en/with-whom/tour-operator";
-	$tran = "/atlantida/en/with-whom/transports";
+	$hotels = "/occidente/en/with-whom/hotels";
+	$rest = "/occidente/en/with-whom/restarants";
+	$tour = "/occidente/en/with-whom/tour-operator";
+	$tran = "/occidente/en/with-whom/transports";
 }
 
 $arges = (int) arg(1); 
