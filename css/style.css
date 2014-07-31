@@ -68,20 +68,23 @@
 }
 
 .field-name-share {
-	rgba(204, 124, 26,0.5) !important
+	background:rgba(204,124,26, 0.5) !important;
 }
 
 .explora {
-	/* color: #ff9e00; //defecto */
+	color:rgb(252, 160,39);
+	text-align:center;
+	font-size:2.5rem;
 }
 
 .portal {
-	color:rgb(204, 124, 26);
+	color:rgb(252, 160,39);
 	/*Color del portal*/
 }
 
 .guara {
 	color: rgb(204, 124, 26) !important;
+	font-size:3.5rem !important;
 	/*color del portal lleva imagen de HondurasGuara*/
 }
 
