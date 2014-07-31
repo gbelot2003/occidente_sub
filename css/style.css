@@ -92,18 +92,6 @@
 	background:rgba(204, 124, 26, 0.5) !important;
 }
 
-.taxonomia {
-	display:inline;
-	float:left;
-	width:370px;
-	max-height:320px;
-	height: 320px;
-}
-
-.taxonomia img {
-	width:800px;
-	height:600px;
-}
 
 /***********************************************************************************************/
 
@@ -1762,13 +1750,35 @@ a.transportes {
 	margin: 0 !important;
 }
 
+/********************  CROP Hotel  *********************************/
+
 .cuarter img {
-	height: 150px;
+	margin:-10px -10px -10px -10px !important;
+
+} 
+.half img {
+	margin:-50px -10px -50px -10px !important;
+
+}
+/**************************CROP************************************/
+.crop {
+	float:center;
+ 	margin:.5em 0px .5em 0;
+ 	overflow:hidden !important; /* IMPORTANTE */
+} 
+.crop img {
+ margin:-10px -10px -10px -10px;
+}
+.crop p {
+ margin:-10px -10px -10px -10px;
 } 
 
-.half img {
-	height: 200px;
+.publicidad {
+	margin-top: 15px;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
 }
+/**************************END************************************/
 
 .node-type-blog .cuarter img {
 	height: auto;
