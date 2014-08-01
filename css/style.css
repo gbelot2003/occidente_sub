@@ -1,7 +1,7 @@
 /**********************************************
  * 
  * Put your custom CSS code here
- * **************************************** Portal Lgo de Copan y Occidente*****************************
+ * **************************************** Portal Copan y Occidente*****************************
  * 
  */
 
@@ -92,6 +92,13 @@
 	background:rgba(204, 124, 26, 0.5) !important;
 }
 
+
+/***********************************************************************************************/
+
+
+
+/***********************************************************************************************/
+
 .taxonomia {
 	display:inline;
 	float:left;
@@ -105,9 +112,6 @@
 	height:600px;
 }
 
-
-
-/***********************************************************************************************/
 
 .canaturh {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg') center left ;
@@ -129,8 +133,8 @@
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -400px -5px;
 }
 
-
 /**********************************************/
+
 #status {
 	background-image: url("../images/loader-main.gif");
 	position: fixed;
@@ -272,7 +276,7 @@ fieldset {
 /***********************************/
 
 .node-atracciones-turisticas ul.links li {
-	list-style: none;
+
 }
 
 .geofieldIn .field-name-field-geolocalizacion {
@@ -651,7 +655,7 @@ h4, h3, h5, .title {
 }
 
 .cuerpo-lateral-small {
-	background: #EDDED3;
+	background-color: rgba(234, 247, 255,0.5);
 	padding: 1.2rem;
 	margin-bottom: 1rem;
 }
@@ -836,10 +840,9 @@ h4, h3, h5, .title {
 
 .listado-imagen-taxonomica li, .field-name-field-ref-tipo-actividad li{
 	display: block;
-	width:115px;
 	margin-right: 0.5rem;
 	float: left;
-	padding:5px 2px 2px 5px;
+	height:35px;
 }
 
 .field-name-field-ref-tipo-actividad li p {
@@ -1794,6 +1797,7 @@ a.transportes {
 }
 /**************************END************************************/
 
+
 .node-type-blog .cuarter img {
 	height: auto;
 }
@@ -1919,9 +1923,18 @@ a.transportes {
 	
 	.field-type-geofield {
 		display:none;
-	}	
+	}
+	
+	/******* rectifica crop vista hotel ******/
+	
+	.half img {
+		margin:-10px 0px -10px 0px !important;
+	}
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+
+
